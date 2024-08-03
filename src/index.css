@@ -1,0 +1,49 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.accordian {
+  width: 400px;
+  margin: auto;
+  background-color: rgb(102, 198, 234);
+  border-radius: 2px;
+  margin-top: 22px;
+}
+.qns {
+  display: flex;
+  align-items: center;
+}
+.qns h3 {
+  margin-left: 40px;
+}
+.accordian button {
+  position: fixed;
+  /* margin-top: 11px; */
+  margin-left: 4px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  /* padding: 5px; */
+}
+.accordian i {
+  font-size: 22px;
+}
+
+.accordian p {
+  margin-left: 30px;
+  margin-top: -11px;
+  padding: 7px;
+}
+.heading {
+  text-align: center;
+}
+
+.qns button .i {
+  font-size: 1.375rem;
+  font-weight: 800;
+}
+
+@media (min-width: 12.5rem) and (max-width: 25rem) {
+  .accordian {
+    width: 100%;
+  }
+}
